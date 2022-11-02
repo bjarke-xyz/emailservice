@@ -1,0 +1,7 @@
+name = "emailservice"
+main = "src/index.ts"
+compatibility_date = "2022-11-02"
+
+services = [
+    {binding = "SERVICE_AUTH", service = "auth", environment = "production"}
+]
